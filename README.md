@@ -27,13 +27,18 @@ By enabling WSL, you can run a Linux distribution alongside your Windows system.
 
    *For detailed instructions, look at Microsoft's official documentation: [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)*
 
-### Step 2: Set Up Ubuntu
+### Step 2: Install Set Up Ubuntu
 
-1. **Initialize Ubuntu**:
-   - After rebooting, Ubuntu will launch automatically.
-   - Set up your Linux username and password as prompted.
+1. **Install Ubuntu and Windows Terminal**:
+   - [Install Ubuntu from the Microsoft Store](https://apps.microsoft.com/detail/9pdxgncfsczv?SilentAuth=1&wa=wsignin1.0&rtc=1&hl=en-us&gl=US)
+   - [Install Windows Terminal from the Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-us&gl=US)
 
-2. **Update Package Lists**:
+2. **Initialize Ubuntu**:
+   - You may be prompted to reboot your PC. Do so if needed.
+   - **Start > Ubuntu on Windows**
+   - Follow any prompts for username and password. A home directory will be created for your user.
+
+3. **Update Package Lists**:
    - In the Ubuntu terminal, run:
      ```bash
      sudo apt update
