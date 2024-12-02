@@ -18,7 +18,7 @@ By enabling WSL, you can run a Linux distribution alongside your Windows system.
 ### Step 1: Enable WSL and Install Ubuntu
 
 1. **Enable WSL**:
-   - Open **PowerShell** with administrator privileges: Right-click on the Start button and select **Windows Terminal (Admin)**.
+   - Open **PowerShell** with administrator privileges: Right-click on the Start button and right-click on **Windows PowerShell**, then select "Run as administrator."
    - Run the following command to enable WSL and install the default Ubuntu distribution:
      ```powershell
      wsl --install
