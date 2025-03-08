@@ -1,3 +1,30 @@
+# Git LFS
+This assumes you've already got Git set up (instructions below).
+
+You can use git LFS (Large File Storage) to commit large media files to a repository.
+
+Installation and usage instructions are [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage?platform=windows), assuming you're using Windows as your platform. Switch to MacOS/Linux if not.
+
+The workflow looks like this in a command line:
+
+```
+# Make sure you're at the root of the project (top-level directory)
+# Let's assume you want to add some .flac files to the project. One
+# command at a time:
+
+# Start tracking any and all .flac files in our /resource directory with git lfs:
+>> git lfs track resource/*.flac
+
+# Now add them to this commit:
+>> git add resource/*.flac
+
+# Now create the commit, and pass -m to add a commit message
+>> git commit -m "Added all the .flac files to the project"
+
+# Push your updates to master. Now they're live on GitHub, and I can pull them down
+>> git push origin master
+```
+
 # Setting Up Git on Windows
 
 There are a couple ways to set up Git on Windows:
